@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.grid-container > .letters {
+    justify-content: left;
+    align-content: left;
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+}
+
+.grid-container > .name {
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+}
+
+.grid-container > .macbook {
+    max-width: 50px;
+    max-height: 15px;
+    width: auto;
+    height: auto;
+}
+
+.grid-container > .logo {
+    justify-content: right;
+    align-content: center;
+    width: auto;
+    height: auto;
+}
+
+.grid-container > .data > .login {
+    cursor: pointer;
+
+}
+
+.grid-container > .data > .register {
+    cursor: pointer;
+}
